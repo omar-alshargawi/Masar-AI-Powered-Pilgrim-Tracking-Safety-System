@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(New-Item -ItemType Directory -Path \"SP2\\\\SP2\\\\frontend\\\\public\" -Force)",
+      "PowerShell(\"✓ public folder ready\")"
+    ]
+  }
+}
