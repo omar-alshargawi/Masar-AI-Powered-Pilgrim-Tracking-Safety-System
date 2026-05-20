@@ -182,49 +182,7 @@ End-to-end latency → <200ms on CPU-only hardware
 
 ---
 
-## 🚀 Getting Started
 
-### Prerequisites
-- Python 3.10+
-- Node.js 18+
-- Git
-
-### 1. Clone the repository
-```bash
-git clone https://github.com/YOUR_USERNAME/masar.git
-cd masar
-```
-
-### 2. Backend setup
-```bash
-cd backend
-python -m venv venv
-source venv/bin/activate  # Windows: venv\Scripts\activate
-pip install -r requirements.txt
-uvicorn main:app --reload
-```
-
-### 3. AI model setup
-```bash
-cd ai
-pip install -r requirements.txt
-python train.py          # Train all three models
-python inference.py      # Start the inference service
-```
-
-### 4. Frontend setup
-```bash
-cd frontend
-npm install
-npm run dev
-```
-
-### 5. Open the app
-```
-http://localhost:5173
-```
-
----
 
 ## 📁 Project Structure
 
